@@ -1,0 +1,302 @@
+@import 'variables';
+
+
+.services_our_services{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  overflow: hidden;
+
+  .section{
+    &:nth-child(1){
+      margin: 0 auto;
+      max-width: 1060px;
+      display: flex;
+
+      .block{
+        color: black;
+
+        &:nth-child(1){
+          width: 40%;
+          padding: 0 15px 0 45px;
+
+          .subtitle{
+            font-size: 15px;
+            line-height: 2.142;
+            font-family: Oswald-Light;
+            letter-spacing: 1px;
+            padding-bottom: 18px;
+          }
+          .title{
+            font-family: Oswald-Bold;
+            font-size: 48px;
+            text-transform: uppercase;
+            line-height: 1.125em;
+            letter-spacing: 2.4px;
+            padding-bottom: 30px;
+          }
+          .line{
+            div{
+              background: $orange;
+              height: 4px;
+              width: 70px;
+            }
+          }
+
+        }
+
+        &:nth-child(2){
+          width: 60%;
+          padding: 36px 15px 0 0;
+          font-family: Montserrat-Light;
+          font-size: 14px;
+          line-height: 2.143em;
+        }
+
+      }
+    }
+
+    &:nth-child(2){
+      padding: 40px 0 20px 20px;
+      box-sizing: border-box;
+      margin: 0 auto;
+      max-width: 1060px;
+      display: flex;
+      flex-wrap: wrap;
+
+      .block{
+        width: 50%;
+        display: flex;
+        padding: 20px 30px;
+        box-sizing: border-box;
+
+        .icon{
+          max-width: 70px;
+          min-width: 70px;
+          width: 70px;
+          padding-right: 30px;
+
+          img{
+            width: 100%;
+          }
+        }
+
+        .content{
+          .title{
+            font-family: Oswald-Bold;
+            font-size: 24px;
+            text-transform: uppercase;
+            line-height: 1em;
+            letter-spacing: 1.2px;
+            color: black;
+            text-decoration: none;
+            transition: .3s;
+
+            &:hover{
+              color: $orange;
+            }
+          }
+
+          .text{
+            color: black;
+            font-family: Montserrat-Light;
+            font-size: 14px;
+            line-height: 2.162em;
+            letter-spacing: 0;
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.services_our_pricing{
+  background: black;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  overflow: hidden;
+
+  .section{
+    &:nth-child(1){
+      margin: 0 auto;
+      max-width: 1060px;
+      display: flex;
+
+      .block{
+        color: white;
+
+        &:nth-child(1){
+          width: 40%;
+          padding: 0 15px 0 45px;
+
+          .subtitle{
+            font-size: 18px;
+            font-family: Oswald-Light;
+            line-height: 1.285em;
+            letter-spacing: 1.8px;
+            padding-bottom: 18px;
+          }
+          .title{
+            font-family: Oswald-Bold;
+            font-size: 36px;
+            text-transform: uppercase;
+            line-height: 1.3333em;
+            letter-spacing: 1.8px;
+            padding-bottom: 30px;
+          }
+          .line{
+            div{
+              background: $orange;
+              height: 4px;
+              width: 70px;
+            }
+          }
+
+        }
+
+        &:nth-child(2){
+          width: 60%;
+          padding: 36px 15px 0 0;
+          font-family: Montserrat-Light;
+          font-size: 14px;
+          line-height: 2.143em;
+        }
+
+      }
+    }
+
+    &:nth-child(2){
+      display: flex;
+      max-width: 1060px;
+      margin: 0 auto;
+      padding: 70px 35px;
+      box-sizing: border-box;
+
+      .block{
+        width: calc(100%/3);
+        background: white;
+        margin: 0 13px;
+        padding: 44px 0 58px 0;
+
+        &:nth-child(even){
+          background: $orange;
+
+          .version{
+            color: white;
+          }
+
+          .price{
+            span{
+              color: white;
+            }
+          }
+
+          .features{
+            ul{
+              color: white;
+            }
+          }
+
+          .button{
+            a{
+              color: $orange;
+              border: 1px solid white;
+              background: white;
+
+              &:hover{
+                background: $orange;
+                color: white;
+              }
+            }
+          }
+        }
+
+        div{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+
+        .version{
+          color: black;
+          font-family: Oswald-Bold;
+          font-size: 24px;
+          text-transform: uppercase;
+          line-height: 1em;
+          letter-spacing: 1.2px;
+          padding-bottom: 25px;
+        }
+
+        .price{
+          padding-bottom: 25px;
+
+          span{
+            font-family: Oswald-Bold;
+            font-size: 30px;
+            text-transform: uppercase;
+            line-height: 1.6667em;
+            letter-spacing: 0;
+            color: $orange;
+
+            &:nth-child(2){
+              font-family: Oswald-Bold;
+              font-size: 60px;
+              text-transform: uppercase;
+              line-height: .8333em;
+              letter-spacing: 0;
+            }
+          }
+        }
+
+        .features{
+          padding-bottom: 40px;
+
+          ul{
+            li{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-family: Montserrat-Light;
+              font-size: 18px;
+              line-height: 2.66667em;
+              letter-spacing: 0;
+
+              i{
+                padding-right: 7px;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+
+        .button{
+          transition: 1.5s;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          a{
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+            line-height: 1.714em;
+            letter-spacing: 8.4px;
+            font-family: Oswald-Bold;
+            color: $orange;
+            border: 1px solid $orange;
+            padding: 18px 26px;
+            transition: .4s;
+            background: transparent;
+
+            &:hover{
+              background: $orange;
+              color: white;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

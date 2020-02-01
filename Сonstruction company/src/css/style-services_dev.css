@@ -1,0 +1,199 @@
+.services_our_services {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  overflow: hidden; }
+  .services_our_services .section:nth-child(1) {
+    margin: 0 auto;
+    max-width: 1060px;
+    display: flex; }
+    .services_our_services .section:nth-child(1) .block {
+      color: black; }
+      .services_our_services .section:nth-child(1) .block:nth-child(1) {
+        width: 40%;
+        padding: 0 15px 0 45px; }
+        .services_our_services .section:nth-child(1) .block:nth-child(1) .subtitle {
+          font-size: 15px;
+          line-height: 2.142;
+          font-family: Oswald-Light;
+          letter-spacing: 1px;
+          padding-bottom: 18px; }
+        .services_our_services .section:nth-child(1) .block:nth-child(1) .title {
+          font-family: Oswald-Bold;
+          font-size: 48px;
+          text-transform: uppercase;
+          line-height: 1.125em;
+          letter-spacing: 2.4px;
+          padding-bottom: 30px; }
+        .services_our_services .section:nth-child(1) .block:nth-child(1) .line div {
+          background: #F7992B;
+          height: 4px;
+          width: 70px; }
+      .services_our_services .section:nth-child(1) .block:nth-child(2) {
+        width: 60%;
+        padding: 36px 15px 0 0;
+        font-family: Montserrat-Light;
+        font-size: 14px;
+        line-height: 2.143em; }
+  .services_our_services .section:nth-child(2) {
+    padding: 40px 0 20px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1060px;
+    display: flex;
+    flex-wrap: wrap; }
+    .services_our_services .section:nth-child(2) .block {
+      width: 50%;
+      display: flex;
+      padding: 20px 30px;
+      box-sizing: border-box; }
+      .services_our_services .section:nth-child(2) .block .icon {
+        max-width: 70px;
+        min-width: 70px;
+        width: 70px;
+        padding-right: 30px; }
+        .services_our_services .section:nth-child(2) .block .icon img {
+          width: 100%; }
+      .services_our_services .section:nth-child(2) .block .content .title {
+        font-family: Oswald-Bold;
+        font-size: 24px;
+        text-transform: uppercase;
+        line-height: 1em;
+        letter-spacing: 1.2px;
+        color: black;
+        text-decoration: none;
+        transition: .3s; }
+        .services_our_services .section:nth-child(2) .block .content .title:hover {
+          color: #F7992B; }
+      .services_our_services .section:nth-child(2) .block .content .text {
+        color: black;
+        font-family: Montserrat-Light;
+        font-size: 14px;
+        line-height: 2.162em;
+        letter-spacing: 0;
+        padding-top: 15px; }
+
+.services_our_pricing {
+  background: black;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  overflow: hidden; }
+  .services_our_pricing .section:nth-child(1) {
+    margin: 0 auto;
+    max-width: 1060px;
+    display: flex; }
+    .services_our_pricing .section:nth-child(1) .block {
+      color: white; }
+      .services_our_pricing .section:nth-child(1) .block:nth-child(1) {
+        width: 40%;
+        padding: 0 15px 0 45px; }
+        .services_our_pricing .section:nth-child(1) .block:nth-child(1) .subtitle {
+          font-size: 18px;
+          font-family: Oswald-Light;
+          line-height: 1.285em;
+          letter-spacing: 1.8px;
+          padding-bottom: 18px; }
+        .services_our_pricing .section:nth-child(1) .block:nth-child(1) .title {
+          font-family: Oswald-Bold;
+          font-size: 36px;
+          text-transform: uppercase;
+          line-height: 1.3333em;
+          letter-spacing: 1.8px;
+          padding-bottom: 30px; }
+        .services_our_pricing .section:nth-child(1) .block:nth-child(1) .line div {
+          background: #F7992B;
+          height: 4px;
+          width: 70px; }
+      .services_our_pricing .section:nth-child(1) .block:nth-child(2) {
+        width: 60%;
+        padding: 36px 15px 0 0;
+        font-family: Montserrat-Light;
+        font-size: 14px;
+        line-height: 2.143em; }
+  .services_our_pricing .section:nth-child(2) {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 70px 35px;
+    box-sizing: border-box; }
+    .services_our_pricing .section:nth-child(2) .block {
+      width: calc(100%/3);
+      background: white;
+      margin: 0 13px;
+      padding: 44px 0 58px 0; }
+      .services_our_pricing .section:nth-child(2) .block:nth-child(even) {
+        background: #F7992B; }
+        .services_our_pricing .section:nth-child(2) .block:nth-child(even) .version {
+          color: white; }
+        .services_our_pricing .section:nth-child(2) .block:nth-child(even) .price span {
+          color: white; }
+        .services_our_pricing .section:nth-child(2) .block:nth-child(even) .features ul {
+          color: white; }
+        .services_our_pricing .section:nth-child(2) .block:nth-child(even) .button a {
+          color: #F7992B;
+          border: 1px solid white;
+          background: white; }
+          .services_our_pricing .section:nth-child(2) .block:nth-child(even) .button a:hover {
+            background: #F7992B;
+            color: white; }
+      .services_our_pricing .section:nth-child(2) .block div {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+      .services_our_pricing .section:nth-child(2) .block .version {
+        color: black;
+        font-family: Oswald-Bold;
+        font-size: 24px;
+        text-transform: uppercase;
+        line-height: 1em;
+        letter-spacing: 1.2px;
+        padding-bottom: 25px; }
+      .services_our_pricing .section:nth-child(2) .block .price {
+        padding-bottom: 25px; }
+        .services_our_pricing .section:nth-child(2) .block .price span {
+          font-family: Oswald-Bold;
+          font-size: 30px;
+          text-transform: uppercase;
+          line-height: 1.6667em;
+          letter-spacing: 0;
+          color: #F7992B; }
+          .services_our_pricing .section:nth-child(2) .block .price span:nth-child(2) {
+            font-family: Oswald-Bold;
+            font-size: 60px;
+            text-transform: uppercase;
+            line-height: .8333em;
+            letter-spacing: 0; }
+      .services_our_pricing .section:nth-child(2) .block .features {
+        padding-bottom: 40px; }
+        .services_our_pricing .section:nth-child(2) .block .features ul li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: Montserrat-Light;
+          font-size: 18px;
+          line-height: 2.66667em;
+          letter-spacing: 0; }
+          .services_our_pricing .section:nth-child(2) .block .features ul li i {
+            padding-right: 7px;
+            font-size: 16px; }
+      .services_our_pricing .section:nth-child(2) .block .button {
+        transition: 1.5s;
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        .services_our_pricing .section:nth-child(2) .block .button a {
+          text-decoration: none;
+          font-size: 14px;
+          text-transform: uppercase;
+          line-height: 1.714em;
+          letter-spacing: 8.4px;
+          font-family: Oswald-Bold;
+          color: #F7992B;
+          border: 1px solid #F7992B;
+          padding: 18px 26px;
+          transition: .4s;
+          background: transparent; }
+          .services_our_pricing .section:nth-child(2) .block .button a:hover {
+            background: #F7992B;
+            color: white; }
+
+/*# sourceMappingURL=style-services_dev.css.map */
