@@ -851,7 +851,7 @@ header{
 
       .slide{
         width: 100%;
-        height: 378px;
+        max-height: 378px;
         overflow: hidden !important;
 
         .client_card{
