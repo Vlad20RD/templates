@@ -714,6 +714,7 @@
 
     .posts{
       width: 100%;
+      margin-bottom: 80px;
     }
     .sidebar{
       width: 100%;
@@ -942,6 +943,7 @@
 
   .blog_content{
     max-width: 540px;
+    margin: 60px auto;
 
     .posts{
       .post{
@@ -1071,7 +1073,7 @@
       width: 95%;
 
       .slick-slide{
-        padding: 30px 15px;
+        padding: 30px;
       }
     }
 
